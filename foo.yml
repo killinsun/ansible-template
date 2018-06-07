@@ -1,0 +1,7 @@
+---
+- name: Template of ansible foo role.
+  hosts: foo_group
+  remote_user: centos
+  become: yes
+  roles:
+     - foo
